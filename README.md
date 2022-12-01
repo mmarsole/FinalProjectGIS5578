@@ -30,7 +30,7 @@ This file imports the GPS csv generated from "MetaData-GPS.ipynb". It then proce
 Polylines are created radiating from each image location based on points plotted evenly around the minimum bounding geometry that contains the visible viewshed output. These polylines are labeled and identified based on their respective 'Degree' (0 to 360) where North is 0 and polylines degree increase clockwise. Based on spatial Join between these polylines and the visible pixels (a.k.a. visible elevation). For each Polyline, the max elevation pixel is retained, thus enabling us to identify the max elevation at each degree interval in a 360 view. Next we extract the distance (in km) from each max elevation pixel to the image location by clipping the polylines based on their intersection with each 'max' elevation pixel. 
 
 Here's a visualization of the steps executed with "Viewsheds.ipynb":
-![generating Ridgeline](https://drive.google.com/file/d/1EZpO4RpAKveztZ6EDkoIQkHQozYahaYT/view?usp=share_link)
+![generating Ridgeline](readme_sup_docs/Generating Ridgeline.JPG)
 
 4. Plotting the 360-degree ridgeline. 
 
