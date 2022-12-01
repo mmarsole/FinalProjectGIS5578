@@ -21,7 +21,7 @@ The code in this repository focuses on steps 2.
 
 Not every image has GPS metadata but if a given image does contain the relevant metadata, the "MetaData-GPS.ipynb" file will extract the GPS metadata for JPG and HEIC images and save it as a csv. 
 
-2. Acquire relevant DEM file (the DEM file has a spatial resolution of 30m and was manually extracted from [USGS National Map Download Platform](https://apps.nationalmap.gov/downloader/#/elevation)).
+2. Acquire relevant DEM file (the DEM file has a spatial resolution of 30m and was manually extracted from [USGS National Map Download Platform](https://apps.nationalmap.gov/downloader/#/elevation).
 
 3. Run "Viewsheds.ipynb" file. 
 
