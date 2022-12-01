@@ -1,5 +1,5 @@
 # Mountain Identification
-This is a repository for my final project (matching mountain ridgelines to DEM generate viewsheds) for class Programming GIS 5578 (taken Fall of 2022 at the U of M).
+This is a repository for my final project (matching mountain ridgelines to DEM generated viewsheds) for Programming GIS 5578 (taken Fall of 2022 at the U of M).
 
 ## The Big Picture
 This project is part of a 'bigger picture'. The End objective is to identify a mountain from an image, given that the image's metadata contains its GPS coordinates. This objective is broken down into the general following steps:
